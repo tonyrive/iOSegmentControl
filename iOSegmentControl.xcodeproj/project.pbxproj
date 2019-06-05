@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		20FD594622A8437F00F71772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD594522A8437F00F71772 /* AppDelegate.swift */; };
-		20FD594822A8437F00F71772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD594722A8437F00F71772 /* ViewController.swift */; };
-		20FD594B22A8437F00F71772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FD594922A8437F00F71772 /* Main.storyboard */; };
 		20FD594E22A8437F00F71772 /* iOSegmentControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20FD594C22A8437F00F71772 /* iOSegmentControl.xcdatamodeld */; };
 		20FD595022A8438100F71772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FD594F22A8438100F71772 /* Assets.xcassets */; };
 		20FD595322A8438100F71772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FD595122A8438100F71772 /* LaunchScreen.storyboard */; };
 		20FD595E22A8438100F71772 /* iOSegmentControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD595D22A8438100F71772 /* iOSegmentControlTests.swift */; };
 		20FD596922A8438100F71772 /* iOSegmentControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD596822A8438100F71772 /* iOSegmentControlUITests.swift */; };
+		20FD597822A843CA00F71772 /* MainContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD597622A843CA00F71772 /* MainContentViewController.swift */; };
+		20FD597922A843CA00F71772 /* MainContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FD597722A843CA00F71772 /* MainContent.xib */; };
+		20FD597C22A8451500F71772 /* tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD597A22A8451500F71772 /* tab1ViewController.swift */; };
+		20FD597D22A8451500F71772 /* tab1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FD597B22A8451500F71772 /* tab1.xib */; };
+		20FD598022A8453400F71772 /* tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD597E22A8453400F71772 /* tab2ViewController.swift */; };
+		20FD598122A8453400F71772 /* tab2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FD597F22A8453400F71772 /* tab2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,6 @@
 /* Begin PBXFileReference section */
 		20FD594222A8437F00F71772 /* iOSegmentControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSegmentControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FD594522A8437F00F71772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20FD594722A8437F00F71772 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		20FD594A22A8437F00F71772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20FD594D22A8437F00F71772 /* iOSegmentControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSegmentControl.xcdatamodel; sourceTree = "<group>"; };
 		20FD594F22A8438100F71772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20FD595222A8438100F71772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		20FD596422A8438100F71772 /* iOSegmentControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSegmentControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20FD596822A8438100F71772 /* iOSegmentControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSegmentControlUITests.swift; sourceTree = "<group>"; };
 		20FD596A22A8438100F71772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FD597622A843CA00F71772 /* MainContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentViewController.swift; sourceTree = "<group>"; };
+		20FD597722A843CA00F71772 /* MainContent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainContent.xib; sourceTree = "<group>"; };
+		20FD597A22A8451500F71772 /* tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab1ViewController.swift; sourceTree = "<group>"; };
+		20FD597B22A8451500F71772 /* tab1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tab1.xib; sourceTree = "<group>"; };
+		20FD597E22A8453400F71772 /* tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab2ViewController.swift; sourceTree = "<group>"; };
+		20FD597F22A8453400F71772 /* tab2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = tab2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				20FD594522A8437F00F71772 /* AppDelegate.swift */,
-				20FD594722A8437F00F71772 /* ViewController.swift */,
-				20FD594922A8437F00F71772 /* Main.storyboard */,
 				20FD594F22A8438100F71772 /* Assets.xcassets */,
 				20FD595122A8438100F71772 /* LaunchScreen.storyboard */,
 				20FD595422A8438100F71772 /* Info.plist */,
 				20FD594C22A8437F00F71772 /* iOSegmentControl.xcdatamodeld */,
+				20FD597622A843CA00F71772 /* MainContentViewController.swift */,
+				20FD597722A843CA00F71772 /* MainContent.xib */,
+				20FD597A22A8451500F71772 /* tab1ViewController.swift */,
+				20FD597B22A8451500F71772 /* tab1.xib */,
+				20FD597E22A8453400F71772 /* tab2ViewController.swift */,
+				20FD597F22A8453400F71772 /* tab2.xib */,
 			);
 			path = iOSegmentControl;
 			sourceTree = "<group>";
@@ -233,7 +245,9 @@
 			files = (
 				20FD595322A8438100F71772 /* LaunchScreen.storyboard in Resources */,
 				20FD595022A8438100F71772 /* Assets.xcassets in Resources */,
-				20FD594B22A8437F00F71772 /* Main.storyboard in Resources */,
+				20FD598122A8453400F71772 /* tab2.xib in Resources */,
+				20FD597D22A8451500F71772 /* tab1.xib in Resources */,
+				20FD597922A843CA00F71772 /* MainContent.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20FD594822A8437F00F71772 /* ViewController.swift in Sources */,
+				20FD597C22A8451500F71772 /* tab1ViewController.swift in Sources */,
+				20FD597822A843CA00F71772 /* MainContentViewController.swift in Sources */,
+				20FD598022A8453400F71772 /* tab2ViewController.swift in Sources */,
 				20FD594622A8437F00F71772 /* AppDelegate.swift in Sources */,
 				20FD594E22A8437F00F71772 /* iOSegmentControl.xcdatamodeld in Sources */,
 			);
@@ -296,14 +312,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		20FD594922A8437F00F71772 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				20FD594A22A8437F00F71772 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		20FD595122A8438100F71772 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

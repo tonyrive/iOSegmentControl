@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainContentViewController" customModule="iOSegmentControl" customModuleProvider="target">
+            <connections>
+                <outlet property="contView" destination="SX9-BX-9Yz" id="mNR-WW-ghQ"/>
+                <outlet property="options" destination="p3k-ZF-L1Y" id="fGu-rF-lah"/>
+                <outlet property="scrollView" destination="ODR-7P-uNd" id="8Zp-fW-ASi"/>
+                <outlet property="view" destination="BWz-Cd-BsG" id="quE-oH-Ka1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="BWz-Cd-BsG">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ODR-7P-uNd">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <subviews>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="p3k-ZF-L1Y">
+                            <rect key="frame" x="8" y="2" width="359" height="29"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="359" id="CRg-LJ-aHh"/>
+                                <constraint firstAttribute="height" constant="28" id="r9q-Xg-M0z"/>
+                            </constraints>
+                            <segments>
+                                <segment title="First"/>
+                                <segment title="Second"/>
+                                <segment title=""/>
+                                <segment title=""/>
+                            </segments>
+                            <connections>
+                                <action selector="didTapSelection:" destination="-1" eventType="valueChanged" id="fO7-GC-IdM"/>
+                            </connections>
+                        </segmentedControl>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SX9-BX-9Yz">
+                            <rect key="frame" x="8" y="36" width="359" height="667"/>
+                            <color key="backgroundColor" red="0.0" green="0.4800641537" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="SX9-BX-9Yz" secondAttribute="trailing" constant="8" id="Hyu-RQ-ZHy"/>
+                        <constraint firstItem="p3k-ZF-L1Y" firstAttribute="leading" secondItem="ODR-7P-uNd" secondAttribute="leading" constant="8" id="LNd-Hz-u4w"/>
+                        <constraint firstAttribute="bottom" secondItem="SX9-BX-9Yz" secondAttribute="bottom" constant="8" id="Oyh-NG-c9W"/>
+                        <constraint firstItem="SX9-BX-9Yz" firstAttribute="top" secondItem="p3k-ZF-L1Y" secondAttribute="bottom" constant="6" id="SaB-vS-oQ0"/>
+                        <constraint firstAttribute="trailing" secondItem="p3k-ZF-L1Y" secondAttribute="trailing" constant="8" id="cbv-eI-GnH"/>
+                        <constraint firstItem="SX9-BX-9Yz" firstAttribute="leading" secondItem="ODR-7P-uNd" secondAttribute="leading" constant="8" id="gn2-Rf-nsB"/>
+                        <constraint firstItem="p3k-ZF-L1Y" firstAttribute="top" secondItem="ODR-7P-uNd" secondAttribute="top" constant="2" id="htc-dY-mmt"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ODR-7P-uNd" firstAttribute="top" secondItem="iJy-QH-hB7" secondAttribute="top" id="YIw-wy-i2D"/>
+                <constraint firstItem="ODR-7P-uNd" firstAttribute="trailing" secondItem="iJy-QH-hB7" secondAttribute="trailing" id="byW-da-ryc"/>
+                <constraint firstItem="ODR-7P-uNd" firstAttribute="leading" secondItem="iJy-QH-hB7" secondAttribute="leading" id="ceZ-u1-6az"/>
+                <constraint firstItem="ODR-7P-uNd" firstAttribute="bottom" secondItem="iJy-QH-hB7" secondAttribute="bottom" id="ghO-IY-mGm"/>
+                <constraint firstItem="SX9-BX-9Yz" firstAttribute="height" secondItem="BWz-Cd-BsG" secondAttribute="height" id="gvt-Gv-aVu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="iJy-QH-hB7"/>
+            <point key="canvasLocation" x="40.799999999999997" y="46.326836581709152"/>
+        </view>
+    </objects>
+</document>
